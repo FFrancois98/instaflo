@@ -7,16 +7,67 @@
 //
 
 import UIKit
-
+import Parse
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    /*
+    func imagePickerController(_ picker: UIImagePickerController,
+                               didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        // Get the image captured by the UIImagePickerController
+        let originalImage = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
+        let editedImage = info[UIImagePickerController.InfoKey.editedImage] as! UIImage
+        
+        // Do something with the images (based on your use case)
+        
+        // Dismiss UIImagePickerController to go back to your original view controller
+        //dismiss(animated: true, completion: nil)
+    }
+    */
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Parse.initialize(
+            with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = "Instagram"
+                configuration.clientKey = "kjfpkajnfkvjcnflvjkab294r2j47kjfnv"   // set to nil assuming you have not set clientKey
+                configuration.server = "http://instaflo.herokuapp.com/parse"
+            })
+        )
+        
+        if PFUser.current() != nil {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            // view controller currently being set in Storyboard as default will be overridden
+            window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController") 
+        }
+        
+        NotificationCenter.default.addObserver(forName: Notification.Name("didLogout"), object: nil, queue: OperationQueue.main) { (Notification) in
+            print("Logout notification received")
+            // TODO: Logout the User
+            // TODO: Load and show the login view controller
+            print("Inside the change app delegate")
+            let storyBoard = UIStoryboard(name : "Main", bundle: nil)
+            let viewController = storyBoard.instantiateInitialViewController()
+            self.window?.rootViewController = viewController
+            
+        }
+        
         return true
+    }
+    
+    func logOut() {
+        // Logout the current user
+        PFUser.logOutInBackground(block: { (error) in
+            if let error = error {
+                print(error.localizedDescription)
+            } else {
+                print("Successful loggout")
+                // Load and show the login view controller
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let loginViewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+                self.window?.rootViewController = loginViewController
+            }
+        })
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

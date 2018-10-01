@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530C1D1417A123BE48406E3E /* Pods_instafloUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE4837C297CB91A87934894 /* Pods_instafloUITests.framework */; };
 		7430C3B5215871DA00B48B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430C3B4215871DA00B48B9A /* AppDelegate.swift */; };
 		7430C3B7215871DA00B48B9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430C3B6215871DA00B48B9A /* ViewController.swift */; };
 		7430C3BA215871DA00B48B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7430C3B8215871DA00B48B9A /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		7430C3BF215871DC00B48B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7430C3BD215871DC00B48B9A /* LaunchScreen.storyboard */; };
 		7430C3CA215871DD00B48B9A /* instafloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430C3C9215871DD00B48B9A /* instafloTests.swift */; };
 		7430C3D5215871DD00B48B9A /* instafloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430C3D4215871DD00B48B9A /* instafloUITests.swift */; };
+		7430C3E321588DE900B48B9A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430C3E221588DE900B48B9A /* LoginViewController.swift */; };
+		74D4312F215EF57000DC04A6 /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D4312E215EF57000DC04A6 /* HomeFeedViewController.swift */; };
+		74D43131215F053A00DC04A6 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D43130215F053A00DC04A6 /* PhotoTableViewCell.swift */; };
+		AC41A851A124B36023B399D8 /* Pods_instafloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF73B7C3909E82BF8EC40675 /* Pods_instafloTests.framework */; };
+		B5C886A545894C793A30C85A /* Pods_instaflo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C467B957ADBFABEA8F9CF4E9 /* Pods_instaflo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04DB930A3F951B11D09B694D /* Pods-instafloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instafloUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-instafloUITests/Pods-instafloUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DA16332CD6F360EAED9DA5D /* Pods-instaflo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaflo.release.xcconfig"; path = "Pods/Target Support Files/Pods-instaflo/Pods-instaflo.release.xcconfig"; sourceTree = "<group>"; };
 		7430C3B1215871DA00B48B9A /* instaflo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instaflo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7430C3B4215871DA00B48B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7430C3B6215871DA00B48B9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		7430C3D0215871DD00B48B9A /* instafloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instafloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7430C3D4215871DD00B48B9A /* instafloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instafloUITests.swift; sourceTree = "<group>"; };
 		7430C3D6215871DD00B48B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7430C3E221588DE900B48B9A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		74D4312E215EF57000DC04A6 /* HomeFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
+		74D43130215F053A00DC04A6 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		7FA2A56CD783C31716164B07 /* Pods-instafloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instafloTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instafloTests/Pods-instafloTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2CAB2F011DBB6820523C3EF /* Pods-instafloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instafloUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instafloUITests/Pods-instafloUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAE4837C297CB91A87934894 /* Pods_instafloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instafloUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C467B957ADBFABEA8F9CF4E9 /* Pods_instaflo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instaflo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B1CDE2B51A761D5C55DFBB /* Pods-instaflo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaflo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instaflo/Pods-instaflo.debug.xcconfig"; sourceTree = "<group>"; };
+		EF73B7C3909E82BF8EC40675 /* Pods_instafloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instafloTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6FDBAC8D67A125A51ACCFE /* Pods-instafloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instafloTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-instafloTests/Pods-instafloTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C886A545894C793A30C85A /* Pods_instaflo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC41A851A124B36023B399D8 /* Pods_instafloTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530C1D1417A123BE48406E3E /* Pods_instafloUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FE98CBE72DE697FC5A20535 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7B1CDE2B51A761D5C55DFBB /* Pods-instaflo.debug.xcconfig */,
+				5DA16332CD6F360EAED9DA5D /* Pods-instaflo.release.xcconfig */,
+				7FA2A56CD783C31716164B07 /* Pods-instafloTests.debug.xcconfig */,
+				FB6FDBAC8D67A125A51ACCFE /* Pods-instafloTests.release.xcconfig */,
+				B2CAB2F011DBB6820523C3EF /* Pods-instafloUITests.debug.xcconfig */,
+				04DB930A3F951B11D09B694D /* Pods-instafloUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7430C3A8215871DA00B48B9A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				7430C3C8215871DD00B48B9A /* instafloTests */,
 				7430C3D3215871DD00B48B9A /* instafloUITests */,
 				7430C3B2215871DA00B48B9A /* Products */,
+				2FE98CBE72DE697FC5A20535 /* Pods */,
+				9341036145B98F856F08E2EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +139,9 @@
 				7430C3BB215871DC00B48B9A /* Assets.xcassets */,
 				7430C3BD215871DC00B48B9A /* LaunchScreen.storyboard */,
 				7430C3C0215871DC00B48B9A /* Info.plist */,
+				7430C3E221588DE900B48B9A /* LoginViewController.swift */,
+				74D4312E215EF57000DC04A6 /* HomeFeedViewController.swift */,
+				74D43130215F053A00DC04A6 /* PhotoTableViewCell.swift */,
 			);
 			path = instaflo;
 			sourceTree = "<group>";
@@ -125,6 +164,16 @@
 			path = instafloUITests;
 			sourceTree = "<group>";
 		};
+		9341036145B98F856F08E2EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C467B957ADBFABEA8F9CF4E9 /* Pods_instaflo.framework */,
+				EF73B7C3909E82BF8EC40675 /* Pods_instafloTests.framework */,
+				BAE4837C297CB91A87934894 /* Pods_instafloUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7430C3D9215871DD00B48B9A /* Build configuration list for PBXNativeTarget "instaflo" */;
 			buildPhases = (
+				E2EFCE481363332F2FAB8EB5 /* [CP] Check Pods Manifest.lock */,
 				7430C3AD215871DA00B48B9A /* Sources */,
 				7430C3AE215871DA00B48B9A /* Frameworks */,
 				7430C3AF215871DA00B48B9A /* Resources */,
+				F35F1059F127FDF5CCD611DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7430C3DC215871DD00B48B9A /* Build configuration list for PBXNativeTarget "instafloTests" */;
 			buildPhases = (
+				8EBDDAB1D9CAB448F34A315F /* [CP] Check Pods Manifest.lock */,
 				7430C3C1215871DD00B48B9A /* Sources */,
 				7430C3C2215871DD00B48B9A /* Frameworks */,
 				7430C3C3215871DD00B48B9A /* Resources */,
@@ -167,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7430C3DF215871DD00B48B9A /* Build configuration list for PBXNativeTarget "instafloUITests" */;
 			buildPhases = (
+				9DE29014CD5A0DC1123A22F9 /* [CP] Check Pods Manifest.lock */,
 				7430C3CC215871DD00B48B9A /* Sources */,
 				7430C3CD215871DD00B48B9A /* Frameworks */,
 				7430C3CE215871DD00B48B9A /* Resources */,
@@ -251,13 +304,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8EBDDAB1D9CAB448F34A315F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instafloTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE29014CD5A0DC1123A22F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instafloUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2EFCE481363332F2FAB8EB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instaflo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35F1059F127FDF5CCD611DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-instaflo/Pods-instaflo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instaflo/Pods-instaflo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7430C3AD215871DA00B48B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D43131215F053A00DC04A6 /* PhotoTableViewCell.swift in Sources */,
+				7430C3E321588DE900B48B9A /* LoginViewController.swift in Sources */,
 				7430C3B7215871DA00B48B9A /* ViewController.swift in Sources */,
 				7430C3B5215871DA00B48B9A /* AppDelegate.swift in Sources */,
+				74D4312F215EF57000DC04A6 /* HomeFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,15 +563,17 @@
 		};
 		7430C3DA215871DD00B48B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B1CDE2B51A761D5C55DFBB /* Pods-instaflo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65YPCGB9L9;
 				INFOPLIST_FILE = instaflo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.instaflo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fleurevcafrancois.instaflo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,15 +582,17 @@
 		};
 		7430C3DB215871DD00B48B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA16332CD6F360EAED9DA5D /* Pods-instaflo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65YPCGB9L9;
 				INFOPLIST_FILE = instaflo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.instaflo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fleurevcafrancois.instaflo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +601,7 @@
 		};
 		7430C3DD215871DD00B48B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA2A56CD783C31716164B07 /* Pods-instafloTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +622,7 @@
 		};
 		7430C3DE215871DD00B48B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6FDBAC8D67A125A51ACCFE /* Pods-instafloTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +643,7 @@
 		};
 		7430C3E0215871DD00B48B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2CAB2F011DBB6820523C3EF /* Pods-instafloUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +663,7 @@
 		};
 		7430C3E1215871DD00B48B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04DB930A3F951B11D09B694D /* Pods-instafloUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
