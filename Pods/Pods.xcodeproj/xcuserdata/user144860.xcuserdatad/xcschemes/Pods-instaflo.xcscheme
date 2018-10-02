@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2072B6A291AB8724236CCF349E8A97D"
+               BlueprintIdentifier = "12EA8E059F8A471CC273283003535C45"
                BuildableName = "Pods_instaflo.framework"
                BlueprintName = "Pods-instaflo"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2072B6A291AB8724236CCF349E8A97D"
+            BlueprintIdentifier = "12EA8E059F8A471CC273283003535C45"
             BuildableName = "Pods_instaflo.framework"
             BlueprintName = "Pods-instaflo"
             ReferencedContainer = "container:Pods.xcodeproj">

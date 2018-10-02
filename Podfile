@@ -8,6 +8,7 @@ target 'instaflo' do
 
   # Pods for instaflo
   pod 'Parse'
+  pod 'AFNetworking', '~> 3.0'
 
   target 'instafloTests' do
     inherit! :search_paths

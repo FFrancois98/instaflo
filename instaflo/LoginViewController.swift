@@ -22,7 +22,10 @@ class LoginViewController: UIViewController {
     
     @IBAction func onSignIn(_ sender: Any) {
         PFUser.logInWithUsername(inBackground: usernameField.text!, password: passwordField.text!) { (user: PFUser?, error: Error?) in
-            if user != nil {
+            if let error = error {
+                print("User login failed.")
+                print(error.localizedDescription)
+            }else {
                 print("you're logged in!!")
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
             }

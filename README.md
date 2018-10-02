@@ -2,7 +2,7 @@
 
 **instaflo** is a photo sharing app using Parse as its backend.
 
-Time spent: **20** hours spent in total
+Time spent: **26** hours spent in total
 
 ## User Stories
 
@@ -10,7 +10,7 @@ The following **required** functionality is completed:
 
 - [X] User can sign up to create a new account using Parse authentication (+1pt)
 - [X] User can log in and log out of his or her account (+1pt)
-- [ ] The current signed in user is persisted across app restarts (+1pt)
+- [X] The current signed in user is persisted across app restarts (+1pt)
 - [ ] User can take a photo, add a caption, and post it to "Instagram" (+2pt)
 - [ ] User can view the last 20 posts submitted to "Instagram" (+2pt)
 - [ ] User can pull to refresh the last 20 posts submitted to "Instagram" (+1pt)
@@ -48,7 +48,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/nlabmXf.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/n4g0J7e.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -65,7 +65,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2018] [Fleurevca Francois]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

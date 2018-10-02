@@ -1,17 +1,16 @@
 //
-//  PhotoTableViewCell.swift
+//  PostCell.swift
 //  instaflo
 //
-//  Created by user144860 on 9/28/18.
+//  Created by user144860 on 10/1/18.
 //  Copyright © 2018 Fleurevca Francois. All rights reserved.
 //
 
 import UIKit
+import Parse
+//#import <ParseUI/ParseUI.h>
+class PostCell: UITableViewCell {
 
-class PhotoTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var photoImageView: UIImageView!
-    @IBOutlet weak var captionTextField: UITextField!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

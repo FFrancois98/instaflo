@@ -16,8 +16,10 @@
 		7430C3CA215871DD00B48B9A /* instafloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430C3C9215871DD00B48B9A /* instafloTests.swift */; };
 		7430C3D5215871DD00B48B9A /* instafloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430C3D4215871DD00B48B9A /* instafloUITests.swift */; };
 		7430C3E321588DE900B48B9A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430C3E221588DE900B48B9A /* LoginViewController.swift */; };
-		74D4312F215EF57000DC04A6 /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D4312E215EF57000DC04A6 /* HomeFeedViewController.swift */; };
-		74D43131215F053A00DC04A6 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D43130215F053A00DC04A6 /* PhotoTableViewCell.swift */; };
+		74AAA83D2162D7FD00D563CE /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AAA83C2162D7FD00D563CE /* HomeFeedViewController.swift */; };
+		74AAA83F2162ED1200D563CE /* PhotoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AAA83E2162ED1200D563CE /* PhotoMapViewController.swift */; };
+		74AAA8412162F3D400D563CE /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AAA8402162F3D400D563CE /* PostCell.swift */; };
+		74AAA8432162FDBD00D563CE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AAA8422162FDBD00D563CE /* Post.swift */; };
 		AC41A851A124B36023B399D8 /* Pods_instafloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF73B7C3909E82BF8EC40675 /* Pods_instafloTests.framework */; };
 		B5C886A545894C793A30C85A /* Pods_instaflo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C467B957ADBFABEA8F9CF4E9 /* Pods_instaflo.framework */; };
 /* End PBXBuildFile section */
@@ -56,8 +58,12 @@
 		7430C3D4215871DD00B48B9A /* instafloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instafloUITests.swift; sourceTree = "<group>"; };
 		7430C3D6215871DD00B48B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7430C3E221588DE900B48B9A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		74D4312E215EF57000DC04A6 /* HomeFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
-		74D43130215F053A00DC04A6 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		74AAA83C2162D7FD00D563CE /* HomeFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
+		74AAA83E2162ED1200D563CE /* PhotoMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMapViewController.swift; sourceTree = "<group>"; };
+		74AAA8402162F3D400D563CE /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		74AAA8422162FDBD00D563CE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		74AAA8442163003D00D563CE /* Parse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Parse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AAA8462163012200D563CE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = ../../Downloads/ParseUI.framework; sourceTree = "<group>"; };
 		7FA2A56CD783C31716164B07 /* Pods-instafloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instafloTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instafloTests/Pods-instafloTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B2CAB2F011DBB6820523C3EF /* Pods-instafloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instafloUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instafloUITests/Pods-instafloUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BAE4837C297CB91A87934894 /* Pods_instafloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instafloUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,8 +146,10 @@
 				7430C3BD215871DC00B48B9A /* LaunchScreen.storyboard */,
 				7430C3C0215871DC00B48B9A /* Info.plist */,
 				7430C3E221588DE900B48B9A /* LoginViewController.swift */,
-				74D4312E215EF57000DC04A6 /* HomeFeedViewController.swift */,
-				74D43130215F053A00DC04A6 /* PhotoTableViewCell.swift */,
+				74AAA83C2162D7FD00D563CE /* HomeFeedViewController.swift */,
+				74AAA83E2162ED1200D563CE /* PhotoMapViewController.swift */,
+				74AAA8402162F3D400D563CE /* PostCell.swift */,
+				74AAA8422162FDBD00D563CE /* Post.swift */,
 			);
 			path = instaflo;
 			sourceTree = "<group>";
@@ -167,6 +175,8 @@
 		9341036145B98F856F08E2EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74AAA8462163012200D563CE /* ParseUI.framework */,
+				74AAA8442163003D00D563CE /* Parse.framework */,
 				C467B957ADBFABEA8F9CF4E9 /* Pods_instaflo.framework */,
 				EF73B7C3909E82BF8EC40675 /* Pods_instafloTests.framework */,
 				BAE4837C297CB91A87934894 /* Pods_instafloUITests.framework */,
@@ -366,11 +376,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-instaflo/Pods-instaflo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
@@ -386,11 +398,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74D43131215F053A00DC04A6 /* PhotoTableViewCell.swift in Sources */,
+				74AAA83F2162ED1200D563CE /* PhotoMapViewController.swift in Sources */,
 				7430C3E321588DE900B48B9A /* LoginViewController.swift in Sources */,
 				7430C3B7215871DA00B48B9A /* ViewController.swift in Sources */,
 				7430C3B5215871DA00B48B9A /* AppDelegate.swift in Sources */,
-				74D4312F215EF57000DC04A6 /* HomeFeedViewController.swift in Sources */,
+				74AAA83D2162D7FD00D563CE /* HomeFeedViewController.swift in Sources */,
+				74AAA8432162FDBD00D563CE /* Post.swift in Sources */,
+				74AAA8412162F3D400D563CE /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
